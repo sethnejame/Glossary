@@ -9,7 +9,9 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Controllers" t="Include" />
+      <e p="Controllers" t="Include">
+        <e p="GlossaryController.cs" t="Include" />
+      </e>
       <e p="Glossary.csproj" t="IncludeRecursive" />
       <e p="GlossaryItem.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
