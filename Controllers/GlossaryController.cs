@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Glossary.Controllers
@@ -36,6 +37,23 @@ namespace Glossary.Controllers
         public ActionResult<List<GlossaryItem>> Get()
         {
             return Ok(Glossary);
+        }
+        
+        [HttpGet]
+        [Route("{term}")]
+        public ActionResult<List<GlossaryItem>> Get(string term)
+        {
+            var glossaryItem = Glossary.Find(item => 
+                item.Term.Equals(term, StringComparison.InvariantCultureIgnoreCase));
+
+            if (glossaryItem == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(glossaryItem);   
+            }
         }
     }
 }
