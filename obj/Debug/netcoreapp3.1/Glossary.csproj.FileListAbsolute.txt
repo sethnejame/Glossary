@@ -16,3 +16,12 @@ D:\Coding\Glossary\obj\Debug\netcoreapp3.1\Glossary.AssemblyInfo.cs
 D:\Coding\Glossary\obj\Debug\netcoreapp3.1\Glossary.RazorTargetAssemblyInfo.cache
 D:\Coding\Glossary\obj\Debug\netcoreapp3.1\Glossary.dll
 D:\Coding\Glossary\obj\Debug\netcoreapp3.1\Glossary.pdb
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Coding\Glossary\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Coding\Glossary\obj\Debug\netcoreapp3.1\Glossary.csproj.CopyComplete
