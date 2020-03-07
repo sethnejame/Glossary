@@ -75,5 +75,39 @@ namespace Glossary.Controllers
                 return Created(resourceUrl, glossaryItem);
             }
         }
+        
+        [HttpPut]
+        public ActionResult Put(GlossaryItem glossaryItem)
+        {
+            var existingGlossaryItem = Glossary.Find(item =>
+                item.Term.Equals(glossaryItem.Term, StringComparison.InvariantCultureIgnoreCase));
+
+            if (existingGlossaryItem == null)
+            {
+                return BadRequest("Cannot update a non-existing term.");
+            } else
+            {
+                existingGlossaryItem.Definition = glossaryItem.Definition;
+                return Ok();
+            }
+        }
+        
+        [HttpDelete]
+        [Route("{term}")]
+        public ActionResult Delete(string term)
+        {
+            var glossaryItem = Glossary.Find(item =>
+                item.Term.Equals(term, StringComparison.InvariantCultureIgnoreCase));
+
+            if (glossaryItem == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                Glossary.Remove(glossaryItem);
+                return NoContent();
+            }
+        }
     }
 }
