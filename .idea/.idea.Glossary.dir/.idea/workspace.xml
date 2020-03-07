@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c8f099-a381-4c84-bdc0-d0915f4e2884" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/GlossaryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Glossary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Glossary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Glossary.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glossary.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/GlossaryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/GlossaryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Glossary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Glossary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Glossary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Glossary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Glossary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Glossary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Glossary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Glossary.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583570089486</updated>
-      <workItem from="1583570090853" duration="1565000" />
+      <workItem from="1583570090853" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -112,5 +116,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1583572973144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583572973144" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1583572973144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583572973144" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1583572973143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583572973143" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1583572973144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583572973144" />
   </component>
 </project>

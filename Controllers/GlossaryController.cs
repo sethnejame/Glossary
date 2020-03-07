@@ -31,5 +31,11 @@ namespace Glossary.Controllers
                              "and therefore become liable for a user’s login information."
             }
         };
+        
+        [HttpGet]
+        public ActionResult<List<GlossaryItem>> Get()
+        {
+            return Ok(Glossary);
+        }
     }
 }
